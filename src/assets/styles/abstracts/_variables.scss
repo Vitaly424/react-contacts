@@ -1,0 +1,27 @@
+// // Размеры экрана
+// $screen-sm: 375px;
+// $screen-md: 768px;
+// $screen-lg: 1280px;
+// $screen-xl: 1680px;
+
+:root {
+  // Roboto
+  --font-family-default: "Roboto";
+  --font-weight-default: 400;
+  --font-size-default: 14px;
+  --font-size-small: 12px;
+  --font-size-big: 16px;
+  --font-weight-light: 300;
+  --font-line-height: 1.2;
+
+  // Цвета
+  --bg-accent-color: #002137;
+  --bg-header-color: #d1e0ed;
+  --bg-button-color: #008cf0;
+  --border-color: #42aaff;
+  --color-text-secondary: #fff;
+  --color-hover-secondary: #002c49;
+  --line-color: #e2e7ea;
+}
+
+// Цвета

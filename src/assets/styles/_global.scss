@@ -1,0 +1,41 @@
+body, html, #root, .app {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-default);
+  font-weight: var(--font-weight-default);
+  line-height: var(--font-line-height);
+}
+
+*::-webkit-scrollbar {
+  width: 5px;               /* ширина scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #d3f2f3;        /* цвет дорожки */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #1976d2;    /* цвет плашки */
+  border: 1px solid #1976d2;  /* padding вокруг плашки */
+  border-radius: 20px;       /* закругления плашки */
+}
+
+.content {
+  width: 100%;
+
+  &__page {
+    position: relative;
+    padding: 20px;
+  }
+}
+
+.app__pages {
+  max-width: 1200px;
+  height: 100%;
+  padding: 100px 15px;
+  margin: 0 auto;
+}
+

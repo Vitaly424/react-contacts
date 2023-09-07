@@ -1,0 +1,21 @@
+.nav {
+  position: relative;
+}
+
+.form {
+  display: flex;
+  height: 100%;
+  width: 400px;
+  margin:  0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  & > div {
+    margin-bottom: 16px;
+  }
+}
+
+.username {
+  margin-bottom: 20px;
+}
